@@ -1,4 +1,5 @@
 FROM python:3.11-alpine
+RUN apk update && apk add --no-cache libpq-dev && apk add --no-cache gcc musl-dev
 RUN apk update && \
     apk add --no-cache libpq-dev && \
     apk add --no-cache gcc musl-dev
