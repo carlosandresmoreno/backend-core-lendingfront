@@ -8,7 +8,7 @@ swagger_template = {
         "description": "API para evaluar solicitudes de préstamo y futuras operaciones financieras.",
         "version": "0.0.03"
     },
-    "host": os.getenv("SWAGGER_HOST", "localhost:5000"),
+    "host": os.getenv("SWAGGER_HOST", "localhost:5100"),
     "basePath": "/",
     "schemes": ["http"],
     "consumes": ["application/json"],

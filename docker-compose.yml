@@ -5,7 +5,7 @@ services:
     build: .
     container_name: lendingfront_app
     ports:
-      - "5000:5000"
+      - "5100:5100"
     env_file:
       - .env 
     volumes:

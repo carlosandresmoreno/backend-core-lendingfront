@@ -33,7 +33,7 @@ backend-core-lendingfront/
 
 ## Swagger
 
-Access by the http://127.0.0.1:5000/apidocs
+Access by the http://127.0.0.1:5100/apidocs
 
 
 ## By
