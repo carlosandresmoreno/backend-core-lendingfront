@@ -1,6 +1,5 @@
-FROM python:3.11-slim-buster
+FROM python:3.12-slim-buster
 
-# Instalar dependencias del sistema necesarias para psycopg2 y otras herramientas
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libpq-dev \
