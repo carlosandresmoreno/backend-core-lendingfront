@@ -1,0 +1,1 @@
+# Tareas Asíncronas (Celery; le conectamos celery y tambien redis y pa arriba aunque los sao tambien me gustaria que manejaran como todo lo asincrono)
