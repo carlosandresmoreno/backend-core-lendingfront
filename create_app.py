@@ -13,7 +13,7 @@ from flask_cors import CORS
 def create_app():
     app = Flask(__name__)
     CORS(app)
-    environment = os.getenv("FLASK_ENV", "development")
+    environment = os.getenv("FLASK_ENV", "testing")
     if environment == "production":
         app.config.from_object(ProductionConfig)
     elif environment == "testing":
